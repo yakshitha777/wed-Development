@@ -1,0 +1,21 @@
+5 array methods-push,pop,shift(remove 1st element),unshift(add 1st element),length
+foreach-pass a function(arraow function)
+parameter-creating a function
+arguments-while calling a function
+function without any name is called anonymous,when you give a name then it is function expression(const greet =funtion(){}).
+diff b/w traditional func(give name while creating function) and func expression(name after creating function)
+=>-flat arraow used in function
+arraow function- const greet =(parameter)=>{code} greet(args) used for mostly one line code. cant use this keyword. arraow anonymous(()=>{})
+ECMA script -standard js ES6 version(2015) -before there is no let, const and arraow function before ES6 
+if we return smthng in map it will give op but in for each it will not
+spread-allows us to quickly copy all or part of an existing array or object into another array or object.
+(a1=[1,2,3],a2=[...a1,4,5,6]in this we are using spread operaor(...) and spread elements of a1 to a2)
+destructuring-We may have an array or object that we are working with, but we only need some of the items contained in these.
+rest-*in stud 104 properties we gave 2 properties names remaining 102 can only be used using student
+callback function- function which is passed as an argument to another function.
+diff b/w method( function dependent on object) and function(independently done)
+diff b/w class() and id(in case of dom only one element)
+methods in objects - entries,values,keys
+methods in loops- foreach,map,filter
+5 methods of accessing DOM-document.getElementById(id name)(methodbelongs to document object,returns only one element(1st from dom tree with id)),
+in dom every element is an object.
