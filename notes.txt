@@ -19,3 +19,13 @@ methods in objects - entries,values,keys
 methods in loops- foreach,map,filter
 5 methods of accessing DOM-document.getElementById(id name)(methodbelongs to document object,returns only one element(1st from dom tree with id)),
 in dom every element is an object.
+tagname-return array
+getElementById,query selector-single element
+html-head
+    -body
+append(1 arg),appendchild(1 arg),prepend(1 arg),insert before(2 arg)-add element before dom tree
+event handlers(3)-inline event handlers,property based event handlers and modern js based event handlers
+in dom each element is called object
+Asynchronous javascript-thread is a process.
+-javascript is a single threaded language.(can only perfom one operation at a time)
+-executes code one by one
