@@ -29,3 +29,59 @@ in dom each element is called object
 Asynchronous javascript-thread is a process.
 -javascript is a single threaded language.(can only perfom one operation at a time)
 -executes code one by one
+REACT:
+-React is a library not  framework
+-react is developed by meta
+-react has a virtual DOM
+-uses component based architecture(repition of code,easy)
+-react uses jsx(javascript XML) as language
+-XML is a markup language
+-can use js code in between html tags in jsx
+-use .jsx extention.
+-used for single page application
+-jsx is also a function
+-jsx function name is in pascel case
+-jsx return html
+-ex:function Home(){
+    return <p></p>
+}
+-for setting react we need CLI tools
+-npx create-react app projectname(not using currently)(Tool-meta)
+-npm create vite projectname(Tool-vite,open source)
+-npm - node package Manager(predefined code,open source library for js)
+-for running js we should have node js(runtime environment for js)
+-package.json contains list of packages required to run our projectname,contains details of the project.
+-we are currently using react18
+-react 19 has come but is in beta stage.
+-jsx is a function
+-syntax:const navbar=()={
+    return(
+    <nav>
+    <ul>
+    <li>
+    </nav>
+    )
+}
+-in return there can only be one parent
+-wrong syntax:const navbar=()={
+    return(
+    <div>
+    </div>
+    <div>
+    </div>
+    )
+}cannot have 2 div.
+-to do routing we need 3 featurs
+ -Router
+ -Route
+ -Link
+ -Navlink
+-react-router-dom contain all the packages.
+-i is install.
+properties-props
+state-defines the cuurent state of component.
+useState()-only this can tell to read under component
+syntax-const[temp,setTemp]=useState(initial)
+-useEffect to perfom side effects
+ -dom effects
+ -
