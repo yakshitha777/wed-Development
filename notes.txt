@@ -85,3 +85,5 @@ syntax-const[temp,setTemp]=useState(initial)
 -useEffect to perfom side effects
  -dom effects
  -
+click start
+add new collection give name(3B) click save and connect
